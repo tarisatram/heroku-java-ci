@@ -1,0 +1,21 @@
+{
+  "name": "heroku-java-ci",
+  "description": "Automated JUnit testing, code analysis and deployment of a Java Spark application to Heroku, utilizing GitHub, Travis CI, and CodeClimate.",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/java"
+    }
+  ]
+}
