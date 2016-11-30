@@ -22,5 +22,6 @@ public class HerokuJavaCi {
         port(herokuHelper.getAssignedPort());
         // Route for HTTP GETs to /ping
         get("/ping", (req, res) -> "PONG!");
+        get("/test", (req, res) -> "This is a test");
     }
 }
